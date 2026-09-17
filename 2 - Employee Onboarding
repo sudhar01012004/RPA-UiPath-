@@ -1,0 +1,31 @@
+**Create 4 variables**
+
+isITDept    Boolean   Main   {}False
+department  string    Main   {}
+email       string    Main   {}
+empName     string    Main   {}
+
+**Assign**
+  --> To variable = empName
+  --> Set value = "Name"
+
+**Assign**
+  --> To variable = email
+  --> Set value = "123@gmail.com"
+
+  **Assign**
+  --> To variable = department
+  --> Set value = "IT support"
+
+  **Assign**
+  --> To variable = isITDept
+  --> Set value = deparment.contains"IT"
+
+SEARCH IF
+
+**If**
+  -->de[artment = "IT support"
+**Then**
+  **message box**-->"Welcome"+empName
+**Else**
+  **message box**-->"Manual onboarding required"
